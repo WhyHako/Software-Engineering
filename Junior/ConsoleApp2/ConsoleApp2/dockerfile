@@ -1,0 +1,17 @@
+FROM mcr.microsoft.com/dotnet/runtime:6.0 AS base
+WORKDIR /ConsoleApp2
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /ConsoleApp2/ConsoleApp2
+COPY ["ConsoleApp2.csproj", "ConsoleApp2/"]
+RUN dotnet restore "ConsoleApp2/ConsoleApp2.csproj"
+COPY . .
+RUN dotnet build "ConsoleApp2.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "ConsoleApp2.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /ConsoleApp2
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "ConsoleApp2.dll"]
