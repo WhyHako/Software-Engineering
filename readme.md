@@ -51,15 +51,43 @@
 Для запуска проектов можно использовать инструменты Visual Studio, а также инструменты Docker Desktop.
 
 ### Задача №1:
-	
+
+<h4>	
+Visual Studio: 
+</h4>
+
+Необходимо открыть файл "ConsoleApp1.sln" и нажать F5.
+
+<h4>	
 Docker Hub: 
+</h4>
+
+Для загрузки Image используется команда:
 
 `docker pull whyhako/task1:latest`
 
+Для запуска используется команда:
+
+`docker run whyhako/task1`
+
 ### Задача №2:
-	
+
+<h4>	
+Visual Studio: 
+</h4>
+
+Необходимо открыть файл "ConsoleApp2.sln" и нажать F5.
+
+<h4>	
 Docker Hub: 
-	
+</h4>
+
+Для загрузки Image используется команда:
+
 `docker pull whyhako/task2:latest`
+
+Для запуска используется команда:
+
+`docker run whyhako/task2`
 
 ---
