@@ -94,4 +94,8 @@ Docker Hub:
 
 `docker run whyhako/task2`
 
+### Задача №3:
+
+- Указана выше.
+
 ---
