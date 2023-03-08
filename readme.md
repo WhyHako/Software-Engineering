@@ -53,12 +53,12 @@
 	
 Docker Hub: 
 
-	docker pull whyhako/task1:latest
+`docker pull whyhako/task1:latest`
 
 ### Задача №2:
 	
 Docker Hub: 
 	
-	docker pull whyhako/task2:latest
+`docker pull whyhako/task2:latest`
 
 ---
