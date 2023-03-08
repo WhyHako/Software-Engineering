@@ -144,7 +144,7 @@ namespace SoftwareEngineeringNumber2
             Json.Отделинформационныхсистем = deptIS;
 
             JsonSerializer serializer = new JsonSerializer();
-            using (StreamWriter sw = new StreamWriter(@"c:\users\lopas\desktop\final_json.txt"))
+            using (StreamWriter sw = new StreamWriter(@".\final_json.json"))
             using (JsonWriter jw = new JsonTextWriter(sw))
             {
                 serializer.Serialize(sw, Json);
@@ -152,7 +152,7 @@ namespace SoftwareEngineeringNumber2
 
             string StringJson = null;
             JSON fresult;
-            using (StreamReader file = File.OpenText(@"c:\users\lopas\desktop\final_json.txt"))
+            using (StreamReader file = File.OpenText(@".\final_json.json"))
             {
                 fresult = (JSON)serializer.Deserialize(file, typeof(JSON));
             }

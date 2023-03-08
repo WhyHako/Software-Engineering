@@ -94,10 +94,6 @@ Docker Hub:
 
 `docker run whyhako/task2`
 
-<h4>
-В файле "ConsoleApp2.cs" необходимо указать путь для создания файла JSON.
-</h4>
-
 ### Задача №3:
 
 - Указана выше.
