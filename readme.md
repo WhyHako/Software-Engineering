@@ -62,6 +62,8 @@ Visual Studio:
 Docker Hub: 
 </h4>
 
+[Ссылка на репозиторий](https://hub.docker.com/r/whyhako/task1)
+
 - Для загрузки Image используется команда:
 
 `docker pull whyhako/task1:latest`
@@ -81,6 +83,8 @@ Visual Studio:
 <h4>	
 Docker Hub: 
 </h4>
+
+[Ссылка на репозиторий](https://hub.docker.com/r/whyhako/task2)
 
 - Для загрузки Image используется команда:
 
