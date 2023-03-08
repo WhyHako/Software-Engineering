@@ -1,11 +1,13 @@
-<h1>
+<h2>
   Рабочее окружение
-</h1>
+</h2>
 	<div>
 	<img src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" title="VS" alt="VS" width="40" height="40"/>&nbsp;
 	<img src="https://cdn-icons-png.flaticon.com/512/5969/5969059.png" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
 	</div>
+	
 ---
+
 Задача №1:
 
 Написать консольное приложение, которое выводит фамилию и имя пользователя с id 10, данные взять из публичного API.
