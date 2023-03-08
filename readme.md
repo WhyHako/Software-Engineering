@@ -62,3 +62,5 @@ Docker Hub:
 `docker pull whyhako/task2:latest`
 
 ---
+
+[!(https://activity-graph.herokuapp.com/graph?username=WhyHako)](https://github.com/WhyHako/Software-Engineering)
