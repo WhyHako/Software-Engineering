@@ -1,7 +1,9 @@
 <h1>
   Рабочее окружение
 </h1>
-
+	<div>
+	<img src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
+	</div>
 ---
 Задача №1:
 
