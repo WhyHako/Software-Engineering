@@ -47,9 +47,15 @@
 </h2>
 
 ### Задача №1:
+	
+Docker Hub: 
+
+	docker pull whyhako/task1:latest
 
 ### Задача №2:
-
-### Задача №3:
+	
+Docker Hub: 
+	
+	docker pull whyhako/task2:latest
 
 ---
