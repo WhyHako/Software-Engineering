@@ -1,5 +1,5 @@
 <h2>
-  Рабочее окружение
+	:hammer_and_wrench: Рабочее окружение
 </h2>
 	<div>
 	<img src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" title="VS" alt="VS" width="40" height="40"/>&nbsp;
@@ -9,7 +9,7 @@
 ---
 
 <h2>
-	Условия задач
+	:books: Условия задач
 </h2>
 
 ### Задача №1:
@@ -43,7 +43,7 @@
 ---
 
 <h2>
-	Инструкция по запуску
+	:gear: Инструкция по запуску
 </h2>
 
 Для каждой задачи прикреплена ссылка на Image с Docker Hub. Также, прикреплены исходные проекты, содержащие внутри "docker-compose.yml" и "dockerfile".
